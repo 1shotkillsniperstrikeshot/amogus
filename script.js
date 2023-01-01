@@ -2,7 +2,7 @@ let query = document.querySelector('.query');
 let searchbtn = document.querySelector('.searchbtn');
 
 searchbtn.onclick = function(){
-    let url = 'https://www.google.com/search?q=' + query.value;
+    let url = 'https://tiki.com/search?q=' + query.value;
     window.open(url,'_self');
 }
 
@@ -12,7 +12,7 @@ function handle(e){
     if(e.keyCode === 13){
         e.preventDefault();
 
-        let url = 'https://www.google.com/search?q=' + query.value;
+        let url = 'https://tiki.com/search?q=' + query.value;
         window.open(url,'_self');
     }
 }
